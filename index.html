@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+   <style>
+       header {
+    background-color: #000000;
+    padding: 8px;
+    text-align:center;
+    font: size 35px;
+    color:#ffffff;
+
+}
+footer {
+    background-color: #000000;
+    padding: 5px;
+    text-align:center;
+    font: size 35px;
+    color:#ffffff;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(47, 0, 255, 0.966);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 1px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .input{
+    font-size: center x;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+   input[type='text']
+   { font-size: 24px;
+
+
+  }
+   input[type='submit']{
+      
+    background-color:skyblue;
+    margin-left: 200px;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  #check{
+      color:blue
+  }
+      </style>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Login">Login</a></li>
+        <li><a href="#Logout">Logout</a></li>
+        <form>
+        <li class="input"><input type="text" placeholder="Search" name="Search"></li>
+    </form>
+        <li style="float:right"><a class="active" href="#Search">Search</a></li>
+      </ul>
+      <form>
+ <fieldset>
+  <legend>Sign Up</legend>
+  <label for="fname">First name:</label><br><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label><br><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label><br><br>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="uname">Username:</label><br><br>
+  <input type="uname" id="uname" name="uname"><br><br>
+  <label for="password">Password:</label><br><br>
+  <input type="password" id="password" name="password"><br><br>
+  
+  <p><input type="checkbox" name="terms">I agree with the <span id="check">Terms and Condition</span></p>
+
+  <input type="submit" value="Sign up"><br><br>
+
+ </fieldset>
+</form>
+<footer> 
+    <h5>2018-2019</h5>
+</footer>
+    
+</body>
+</html>
